@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image: linear-gradient(to right, rgb(0, 183, 255) , rgb(38, 92, 243));
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    width: 50%;
+    margin: auto;
+    background-color:rgb(223, 219, 219) ;
+    margin-top: 30px;
+}
+.container .title h2{
+  margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight:500;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.form1{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+.form-group1{
+  margin: 5px 5px;
+}
+.form-group1 > input[type='text']{
+  width:100%;
+  height: 30px;
+  font-size:15px;
+  padding:10px 10px;
+  font-weight: lighter;
+}
+.form-group1 > span{
+  font-size: 18px;
+}
+
+.form2{
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  
+}
+.form-group2{
+  margin: 5px 5px;
+
+}
+.form-group2 > input[type='text']  {
+  width:100%;
+  height: 30px;
+  font-size:15px;
+  /* padding:10px 10px; */
+  font-weight: lighter;
+ 
+}
+
+.form-group2 > input[type='date']  {
+  width:100%;
+  height: 30px;
+  font-size:15px;
+  /* padding:10px 10px; */
+  font-weight: lighter;
+ 
+}
+
+select{
+  width: 100%;
+  height: 30px;
+  font-size:15px;
+}
+.form-group2 > span{
+  font-size: 18px;
+}
+
+.button{
+  text-align: center;
+}
+#btn{
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  font-size: 24px;
+  background-color: rgba(6, 151, 248, 0.849);
+  color: white;
+  border-radius: 20px;
+  transition:0.5s; 
+  padding:auto;
+  border: none;
+  font-weight: 80;
+}
+#btn:hover{
+  background-color: rgba(250, 170, 250, 0.822);
+  color: rgb(255, 29, 29);
+
+}
+
+
+
+
+/* //height and width of specific input tags  */
+.Nation{
+  margin-left: 89px;
+  width:  64%;
+}
+#gender{
+  width: 167%;
+}
+.blood{
+  margin-left:107px;
+  width: 64%;
+}
+#cast{
+    width:192%;
+  }
+.age{
+  margin-left: 16px;
+  width: 64%;
+}
+#Maritial{
+  width:108.5%;
+}
+.dob{
+width: 43%;
+}
+.mail{
+width: 54%;
+}
+.cn{
+ width:43%;
+}
+ .on{
+  width:54%;
+ }
+ .ri{
+  width: 43%;
+ }
+.dt{
+  width:43.4%;
+ }
+ .pl{
+ width: 53%; 
+ }
+ .od{
+   width: 54%;
+ }
+
+ /* //responsive media */
+ @media screen and (max-width: 1008px) {
+   body{
+     overflow: scroll;
+   }
+  .container {
+    width: 100%;
+  }
+  .form2{
+    flex-direction: column;
+  }
+  #gender{
+    width: 100%;
+  }
+  .Nation{
+    margin-left: 6px;
+    width:97%;
+  }
+  .blood{
+    margin-left:5px;
+    width: 97%;
+  }
+  #cast{
+    width:100%;
+  }
+.age{
+  margin-left: 6px;
+  width: 97%;
+}
+#Maritial{
+  width:100%;
+}
+.dob{
+width: 97%;
+}
+.mail{
+width: 97%;
+}
+.cn{
+ width:97%;
+}
+ .on{
+  width:97%;
+ }
+ .ri{
+width: 97%;
+ }
+.dt{
+  width:97%;
+ }
+ .pl{
+ width: 97%; 
+ }
+ .od{
+  width: 97%;
+ }
+ }
+
+ @media screen and (max-width:348px){
+  .container .title h2{
+    font-size: 30px;
+   }
+ }
